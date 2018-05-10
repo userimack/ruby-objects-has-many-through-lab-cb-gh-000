@@ -5,7 +5,7 @@ describe "Artist" do
 
   describe "#new" do 
     it "initializes with a name and an empty collection of songs" do
-      taylor_swift = Artist.new("Taylor Swift")
+      #taylor_swift = Artist.new("Taylor Swift")
       expect{Artist.new("Beyonce")}.to_not raise_error
       expect(taylor_swift.instance_variable_get(:@songs)).to eq([])
     end
