@@ -3,6 +3,6 @@ class Doctor
   
   def initialize(name)
     @name = name 
-    @appoinments = []
+    @appointments = []
   end 
 end 
