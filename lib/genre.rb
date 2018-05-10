@@ -5,7 +5,7 @@ class Genre
     @songs = []
   end 
   
-  def add_songs(song)
+  def add_song(song)
     @songs << song 
   end 
   
